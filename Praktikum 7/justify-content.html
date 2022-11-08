@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flexbox</title>
+    <style>
+        .kotak {
+            width: 75px;
+            background-color: rgb(10, 164, 10);
+            text-align: center;
+            padding: 50px;
+            border: 1px solid black;
+        }
+
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            background-color: rgba(141, 134, 134, 0.585);
+        }
+
+        .container-2 {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(141, 134, 134, 0.585);
+        }
+
+        .container-3 {
+            display: flex;
+            justify-content: flex-end;
+            background-color: rgba(141, 134, 134, 0.585);
+        }
+
+        .container-4 {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(141, 134, 134, 0.585);
+        }
+
+        .container-5 {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(141, 134, 134, 0.585);
+        }
+    </style>
+</head>
+<body>
+    <h3>flex justify content :flex start</h3>
+    <div class="container">
+        <div class="kotak item-1">1</div>
+        <div class="kotak item-2">2</div>
+        <div class="kotak item-3">3</div>
+        <div class="kotak item-4">4</div>
+        <div class="kotak item-5">5</div>
+    </div>
+
+    <h3>flex justify content :justify content center</h3>
+    <div class="container-2">
+        <div class="kotak item-1">1</div>
+        <div class="kotak item-2">2</div>
+        <div class="kotak item-3">3</div>
+        <div class="kotak item-4">4</div>
+        <div class="kotak item-5">5</div>
+    </div>
+
+    <h3>flex justify content :justify  flex end</h3>
+    <div class="container-3">
+        <div class="kotak item-1">1</div>
+        <div class="kotak item-2">2</div>
+        <div class="kotak item-3">3</div>
+        <div class="kotak item-4">4</div>
+        <div class="kotak item-5">5</div>
+    </div>
+
+    <h3>flex justify content :justify content space between</h3>
+    <div class="container-4">
+        <div class="kotak item-1">1</div>
+        <div class="kotak item-2">2</div>
+        <div class="kotak item-3">3</div>
+        <div class="kotak item-4">4</div>
+        <div class="kotak item-5">5</div>
+    </div>
+
+    <h3>flex justify content :justify content space arround</h3>
+    <div class="container-5">
+        <div class="kotak item-1">1</div>
+        <div class="kotak item-2">2</div>
+        <div class="kotak item-3">3</div>
+        <div class="kotak item-4">4</div>
+        <div class="kotak item-5">5</div>
+    </div>
+</body>
+</html>
