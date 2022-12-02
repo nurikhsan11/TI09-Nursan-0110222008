@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -43,3 +44,50 @@ header, footer, article, nav, aside {
     padding: 1em;
 }
 
+=======
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+#main > article {
+    flex: 1;
+    order: 1;
+}
+
+#main nav,
+#main aside {
+    flex: 0 0 20vw;
+}
+
+#main nav {
+    background: grey;
+    order: 3;
+}
+
+#main aside {
+    background: darkolivegreen;
+    order: 2;
+}
+
+header, footer {
+    background: lightseagreen;
+    height: 20vh;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+}
+
+>>>>>>> 127e3722d299d70d72f23c70624281784d71d108

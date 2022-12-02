@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -31,4 +32,39 @@ nav ul li a {
 
 nav ul li a:hover {
     border-bottom: 2px solid goldenrod;
+=======
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid goldenrod;
+>>>>>>> 127e3722d299d70d72f23c70624281784d71d108
 }
