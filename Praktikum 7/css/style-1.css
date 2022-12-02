@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .kotak {
     border: 1px solid black;
     width: 150px;
@@ -23,4 +24,31 @@
 
 .item4 {
     background-color: rgb(20, 20, 113);
+=======
+.kotak {
+    border: 1px solid black;
+    width: 150px;
+    height: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1 {
+    background-color: rgb(127, 125, 125);
+}
+
+.item2 {
+    background-color: rgb(25, 149, 25);
+}
+
+.item3 {
+    background-color: rgb(241, 188, 107);
+}
+
+.item4 {
+    background-color: rgb(20, 20, 113);
+>>>>>>> 23554979147bffe7c5a9ffa9a219c7ee221583c9
 }

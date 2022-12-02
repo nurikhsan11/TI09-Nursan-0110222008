@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .koleksi img {
     width: 200px;
 }
@@ -7,4 +8,15 @@
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+=======
+.koleksi img {
+    width: 200px;
+}
+
+.koleksi {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+>>>>>>> 23554979147bffe7c5a9ffa9a219c7ee221583c9
 }
